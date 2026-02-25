@@ -77,7 +77,7 @@ def follow(sess, username):
 		print (followReq.text)
 
 
-username = str(input('Please enter a username: '))
+username = str(input('sol_ayes '))
 username = userExists(username)
 if (username == False):
 	exit()
@@ -103,8 +103,10 @@ for i in range(len(passwords)):
 	except KeyboardInterrupt:
 		an = str(input('Type y/n to exit: '))
 		if (an == 'y'):
+			
 			exit()
 		else:
 			continue
 		
+
 
